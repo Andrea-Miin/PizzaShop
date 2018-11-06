@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain;
 
-namespace Domain
+namespace Application
 {
-    public abstract class DtoPizza : Pizza
+    public class DtoPizza : Pizza
     {
-        public DtoPizza(Pizza pizza)
+        public DtoPizza(Pizza pizza) 
         {
             this.Name = pizza.Name;
             this.Id_Ingredient = pizza.Id_Ingredient;
