@@ -9,7 +9,7 @@ namespace Application
 {
     public class DtoPizza : Pizza
     {
-        public DtoPizza(Pizza pizza)
+        public DtoPizza(Pizza pizza) 
         {
             this.Name = pizza.Name;
             this.Id_Ingredient = pizza.Id_Ingredient;
