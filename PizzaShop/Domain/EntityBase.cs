@@ -17,7 +17,10 @@
         public void IsValid() { }
 
         // Errors dictionary. Crear nuevo error (throw).
-        public void Error() { }
+        public void Error()
+        {
+            throw new Exception("Error");
+        }
 
     }
 }
