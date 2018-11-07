@@ -13,6 +13,7 @@ namespace Application
         public Pizza Pizza { get; set; }
         static void create() { }
     }
+
     /*public abstract class DtoIngredient : Ingredient
    {
        public DtoIngredient = Ingredient ingredient
